@@ -1,0 +1,11 @@
+﻿  second.cpp
+C:\Users\koval\source\repos\SPROGLAB7SECONDDLL\SPROGLAB7SECONDDLL\second.cpp(4,5): warning C4273: 'relativePositionX': inconsistent dll linkage
+  C:\Users\koval\source\repos\SPROGLAB7SECONDDLL\SPROGLAB7SECONDDLL\second.h(10,30):
+  see previous definition of 'relativePositionX'
+  
+C:\Users\koval\source\repos\SPROGLAB7SECONDDLL\SPROGLAB7SECONDDLL\second.cpp(13,5): warning C4273: 'relativePositionY': inconsistent dll linkage
+  C:\Users\koval\source\repos\SPROGLAB7SECONDDLL\SPROGLAB7SECONDDLL\second.h(11,30):
+  see previous definition of 'relativePositionY'
+  
+     Creating library C:\Users\koval\source\repos\SPROGLAB7SECONDDLL\x64\Debug\SPROGLAB7SECONDDLL.lib and object C:\Users\koval\source\repos\SPROGLAB7SECONDDLL\x64\Debug\SPROGLAB7SECONDDLL.exp
+  SPROGLAB7SECONDDLL.vcxproj -> C:\Users\koval\source\repos\SPROGLAB7SECONDDLL\x64\Debug\SPROGLAB7SECONDDLL.dll

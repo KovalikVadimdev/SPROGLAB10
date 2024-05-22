@@ -1,0 +1,3 @@
+C:/Users/Vadim/CLionProjects/SPORGLAB1FINAL/cmake-build-debug/CMakeFiles/SPORGLAB1FINAL.dir
+C:/Users/Vadim/CLionProjects/SPORGLAB1FINAL/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Vadim/CLionProjects/SPORGLAB1FINAL/cmake-build-debug/CMakeFiles/rebuild_cache.dir

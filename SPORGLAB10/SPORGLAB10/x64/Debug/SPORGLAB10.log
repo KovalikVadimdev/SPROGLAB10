@@ -1,0 +1,18 @@
+﻿  main.cpp
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPORGLAB10\SPORGLAB10\main.cpp(62,15): warning C4244: 'return': conversion from 'WPARAM' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPORGLAB10\SPORGLAB10\main.cpp(176,31): warning C4244: 'initializing': conversion from 'LRESULT' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPORGLAB10\SPORGLAB10\main.cpp(153,17): warning C4101: 'ps': unreferenced local variable
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPORGLAB10\SPORGLAB10\main.cpp(155,10): warning C4101: 'rt': unreferenced local variable
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPORGLAB10\SPORGLAB10\main.cpp(230,31): warning C4244: 'initializing': conversion from 'LRESULT' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPORGLAB10\SPORGLAB10\main.cpp(207,17): warning C4101: 'ps': unreferenced local variable
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPORGLAB10\SPORGLAB10\main.cpp(209,10): warning C4101: 'rt': unreferenced local variable
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPORGLAB10\SPORGLAB10\main.cpp(284,31): warning C4244: 'initializing': conversion from 'LRESULT' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPORGLAB10\SPORGLAB10\main.cpp(261,17): warning C4101: 'ps': unreferenced local variable
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPORGLAB10\SPORGLAB10\main.cpp(263,10): warning C4101: 'rt': unreferenced local variable
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPORGLAB10\SPORGLAB10\main.cpp(338,31): warning C4244: 'initializing': conversion from 'LRESULT' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPORGLAB10\SPORGLAB10\main.cpp(315,17): warning C4101: 'ps': unreferenced local variable
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPORGLAB10\SPORGLAB10\main.cpp(317,10): warning C4101: 'rt': unreferenced local variable
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPORGLAB10\SPORGLAB10\main.cpp(390,9): warning C4101: 'mainWidth': unreferenced local variable
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPORGLAB10\SPORGLAB10\main.cpp(390,20): warning C4101: 'mainHeight': unreferenced local variable
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPORGLAB10\SPORGLAB10\main.cpp(371,10): warning C4101: 'rt': unreferenced local variable
+  SPORGLAB10.vcxproj -> C:\Users\Kovalik\source\repos\SPROGLAB10\SPORGLAB10\x64\Debug\SPORGLAB10.exe

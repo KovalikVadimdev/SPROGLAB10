@@ -1,0 +1,9 @@
+﻿  main.cpp
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB3-main\SPROGLAB32\main.cpp(136,12): warning C4244: 'return': conversion from 'WPARAM' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB3-main\SPROGLAB32\main.cpp(269,128): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB3-main\SPROGLAB32\main.cpp(380,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB3-main\SPROGLAB32\main.cpp(394,42): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB3-main\SPROGLAB32\main.cpp(416,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB3-main\SPROGLAB32\main.cpp(454,37): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  LINK : C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB3-main\x64\Debug\SPROGLAB32.exe not found or not built by the last incremental link; performing full link
+  SPROGLAB32.vcxproj -> C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB3-main\x64\Debug\SPROGLAB32.exe

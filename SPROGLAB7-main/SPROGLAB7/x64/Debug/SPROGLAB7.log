@@ -1,0 +1,16 @@
+﻿  main.cpp
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB7-main\SPROGLAB7\main.cpp(23,12): warning C4244: 'return': conversion from 'WPARAM' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB7-main\SPROGLAB7\main.cpp(91,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB7-main\SPROGLAB7\main.cpp(92,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB7-main\SPROGLAB7\main.cpp(97,43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB7-main\SPROGLAB7\main.cpp(98,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB7-main\SPROGLAB7\main.cpp(102,50): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB7-main\SPROGLAB7\main.cpp(103,78): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB7-main\SPROGLAB7\main.cpp(119,58): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB7-main\SPROGLAB7\main.cpp(120,144): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB7-main\SPROGLAB7\main.cpp(127,58): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB7-main\SPROGLAB7\main.cpp(128,144): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB7-main\SPROGLAB7\main.cpp(135,58): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB7-main\SPROGLAB7\main.cpp(136,144): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  LINK : C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB7-main\x64\Debug\SPROGLAB7.exe not found or not built by the last incremental link; performing full link
+  SPROGLAB7.vcxproj -> C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB7-main\x64\Debug\SPROGLAB7.exe

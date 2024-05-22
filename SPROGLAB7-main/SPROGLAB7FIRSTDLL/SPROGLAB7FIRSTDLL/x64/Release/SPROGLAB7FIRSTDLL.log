@@ -1,0 +1,17 @@
+﻿  first.cpp
+C:\Users\koval\source\repos\SPROGLAB7FIRSTDLL\SPROGLAB7FIRSTDLL\first.cpp(5,5): warning C4273: 'power': inconsistent dll linkage
+  C:\Users\koval\source\repos\SPROGLAB7FIRSTDLL\SPROGLAB7FIRSTDLL\first.h(10,29):
+  see previous definition of 'power'
+  
+C:\Users\koval\source\repos\SPROGLAB7FIRSTDLL\SPROGLAB7FIRSTDLL\first.cpp(6,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\koval\source\repos\SPROGLAB7FIRSTDLL\SPROGLAB7FIRSTDLL\first.cpp(10,5): warning C4273: 'powerOfSums': inconsistent dll linkage
+  C:\Users\koval\source\repos\SPROGLAB7FIRSTDLL\SPROGLAB7FIRSTDLL\first.h(11,29):
+  see previous definition of 'powerOfSums'
+  
+C:\Users\koval\source\repos\SPROGLAB7FIRSTDLL\SPROGLAB7FIRSTDLL\first.cpp(13,16): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+     Creating library C:\Users\koval\source\repos\SPROGLAB7FIRSTDLL\x64\Release\SPROGLAB7FIRSTDLL.lib and object C:\Users\koval\source\repos\SPROGLAB7FIRSTDLL\x64\Release\SPROGLAB7FIRSTDLL.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 3 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  SPROGLAB7FIRSTDLL.vcxproj -> C:\Users\koval\source\repos\SPROGLAB7FIRSTDLL\x64\Release\SPROGLAB7FIRSTDLL.dll

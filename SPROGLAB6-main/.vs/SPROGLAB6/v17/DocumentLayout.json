@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kovalik\\source\\repos\\SPROGLAB10\\SPROGLAB6-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7871C33-00CF-4995-83DD-A6A6CB8E0B85}|SPROGLAB6\\SPROGLAB6.vcxproj|C:\\Users\\Kovalik\\source\\repos\\SPROGLAB10\\SPROGLAB6-main\\SPROGLAB6\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E7871C33-00CF-4995-83DD-A6A6CB8E0B85}|SPROGLAB6\\SPROGLAB6.vcxproj|solutionrelative:SPROGLAB6\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 317,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Kovalik\\source\\repos\\SPROGLAB10\\SPROGLAB6-main\\SPROGLAB6\\main.cpp",
+              "RelativeDocumentMoniker": "SPROGLAB6\\main.cpp",
+              "ToolTip": "C:\\Users\\Kovalik\\source\\repos\\SPROGLAB10\\SPROGLAB6-main\\SPROGLAB6\\main.cpp",
+              "RelativeToolTip": "SPROGLAB6\\main.cpp",
+              "ViewState": "AQIAABsAAAAAAAAAAAAUwDYAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-20T14:05:38.462Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

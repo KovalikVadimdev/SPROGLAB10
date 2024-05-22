@@ -1,0 +1,13 @@
+﻿  main.cpp
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB6-main\SPROGLAB6\main.cpp(25,12): warning C4244: 'return': conversion from 'WPARAM' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB6-main\SPROGLAB6\main.cpp(216,43): warning C4311: 'type cast': pointer truncation from 'HMENU' to 'UINT'
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB6-main\SPROGLAB6\main.cpp(216,43): warning C4302: 'type cast': truncation from 'HMENU' to 'UINT'
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB6-main\SPROGLAB6\main.cpp(220,43): warning C4311: 'type cast': pointer truncation from 'HMENU' to 'UINT'
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB6-main\SPROGLAB6\main.cpp(220,43): warning C4302: 'type cast': truncation from 'HMENU' to 'UINT'
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB6-main\SPROGLAB6\main.cpp(295,43): warning C4311: 'type cast': pointer truncation from 'HMENU' to 'UINT'
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB6-main\SPROGLAB6\main.cpp(295,43): warning C4302: 'type cast': truncation from 'HMENU' to 'UINT'
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB6-main\SPROGLAB6\main.cpp(299,43): warning C4311: 'type cast': pointer truncation from 'HMENU' to 'UINT'
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB6-main\SPROGLAB6\main.cpp(299,43): warning C4302: 'type cast': truncation from 'HMENU' to 'UINT'
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB6-main\SPROGLAB6\main.cpp(288,7): warning C4101: 'rt': unreferenced local variable
+  LINK : C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB6-main\x64\Debug\SPROGLAB6.exe not found or not built by the last incremental link; performing full link
+  SPROGLAB6.vcxproj -> C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB6-main\x64\Debug\SPROGLAB6.exe

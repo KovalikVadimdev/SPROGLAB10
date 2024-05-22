@@ -1,0 +1,12 @@
+﻿  main.cpp
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB2-main\SPROGLAB2\main.cpp(38,15): warning C4244: 'return': conversion from 'WPARAM' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB2-main\SPROGLAB2\main.cpp(239,45): warning C4244: 'argument': conversion from 'wchar_t' to '_Elem', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB2-main\SPROGLAB2\main.cpp(239,45): warning C4244:         with
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB2-main\SPROGLAB2\main.cpp(239,45): warning C4244:         [
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB2-main\SPROGLAB2\main.cpp(239,45): warning C4244:             _Elem=char
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB2-main\SPROGLAB2\main.cpp(239,45): warning C4244:         ]
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB2-main\SPROGLAB2\main.cpp(244,74): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB2-main\SPROGLAB2\main.cpp(264,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB2-main\SPROGLAB2\main.cpp(99,10): warning C4101: 'rect': unreferenced local variable
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB2-main\SPROGLAB2\main.cpp(98,10): warning C4101: 'rt': unreferenced local variable
+  SPROGLAB2.vcxproj -> C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB2-main\x64\Debug\SPROGLAB2.exe

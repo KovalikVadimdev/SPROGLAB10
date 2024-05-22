@@ -1,0 +1,210 @@
+﻿  main.cpp
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(5,23): error C2440: 'initializing': cannot convert from 'const char [8]' to 'LPCTSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(5,23):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(6,17): error C2440: 'initializing': cannot convert from 'const char [5]' to 'LPCTSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(6,17):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(34,12): warning C4244: 'return': conversion from 'WPARAM' to 'int', possible loss of data
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(61,17): error C2664: 'HWND FindWindowW(LPCWSTR,LPCWSTR)': cannot convert argument 1 from 'const char [14]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(61,28):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(10076,1):
+  see declaration of 'FindWindowW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(61,17):
+  while trying to match the argument list '(const char [14], int)'
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(154,4): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': cannot convert argument 3 from 'const char [10]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(154,29):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1):
+  see declaration of 'MessageBoxW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(154,4):
+  while trying to match the argument list '(HWND, TCHAR [256], const char [10], long)'
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(170,2): error C2664: 'BOOL AppendMenuW(HMENU,UINT,UINT_PTR,LPCWSTR)': cannot convert argument 4 from 'const char [18]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(171,3):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(7632,1):
+  see declaration of 'AppendMenuW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(170,2):
+  while trying to match the argument list '(HMENU, long, int, const char [18])'
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(172,2): error C2664: 'BOOL AppendMenuW(HMENU,UINT,UINT_PTR,LPCWSTR)': cannot convert argument 4 from 'const char [18]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(173,3):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(7632,1):
+  see declaration of 'AppendMenuW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(172,2):
+  while trying to match the argument list '(HMENU, long, int, const char [18])'
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(174,2): error C2664: 'BOOL AppendMenuW(HMENU,UINT,UINT_PTR,LPCWSTR)': cannot convert argument 4 from 'const char [12]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(174,56):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(7632,1):
+  see declaration of 'AppendMenuW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(174,2):
+  while trying to match the argument list '(HMENU, long, int, const char [12])'
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(175,2): error C2664: 'BOOL AppendMenuW(HMENU,UINT,UINT_PTR,LPCWSTR)': cannot convert argument 4 from 'const char [5]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(175,64):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(7632,1):
+  see declaration of 'AppendMenuW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(175,2):
+  while trying to match the argument list '(HMENU, long, UINT_PTR, const char [5])'
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(177,2): error C2664: 'BOOL AppendMenuW(HMENU,UINT,UINT_PTR,LPCWSTR)': cannot convert argument 4 from 'const char [15]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(177,51):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(7632,1):
+  see declaration of 'AppendMenuW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(177,2):
+  while trying to match the argument list '(HMENU, long, int, const char [15])'
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(178,2): error C2664: 'BOOL AppendMenuW(HMENU,UINT,UINT_PTR,LPCWSTR)': cannot convert argument 4 from 'const char [16]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(178,51):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(7632,1):
+  see declaration of 'AppendMenuW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(178,2):
+  while trying to match the argument list '(HMENU, long, int, const char [16])'
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(179,2): error C2664: 'BOOL AppendMenuW(HMENU,UINT,UINT_PTR,LPCWSTR)': cannot convert argument 4 from 'const char [15]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(179,51):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(7632,1):
+  see declaration of 'AppendMenuW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(179,2):
+  while trying to match the argument list '(HMENU, long, int, const char [15])'
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(180,2): error C2664: 'BOOL AppendMenuW(HMENU,UINT,UINT_PTR,LPCWSTR)': cannot convert argument 4 from 'const char [7]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(180,64):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(7632,1):
+  see declaration of 'AppendMenuW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(180,2):
+  while trying to match the argument list '(HMENU, long, UINT_PTR, const char [7])'
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(191,2): error C2664: 'BOOL AppendMenuW(HMENU,UINT,UINT_PTR,LPCWSTR)': cannot convert argument 4 from 'const char [7]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(191,51):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(7632,1):
+  see declaration of 'AppendMenuW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(191,2):
+  while trying to match the argument list '(HMENU, long, int, const char [7])'
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(192,2): error C2664: 'BOOL AppendMenuW(HMENU,UINT,UINT_PTR,LPCWSTR)': cannot convert argument 4 from 'const char [5]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(192,49):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(7632,1):
+  see declaration of 'AppendMenuW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(192,2):
+  while trying to match the argument list '(HMENU, long, int, const char [5])'
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(193,2): error C2664: 'BOOL AppendMenuW(HMENU,UINT,UINT_PTR,LPCWSTR)': cannot convert argument 4 from 'const char [16]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(193,58):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(7632,1):
+  see declaration of 'AppendMenuW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(193,2):
+  while trying to match the argument list '(HMENU, long, int, const char [16])'
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(194,2): error C2664: 'BOOL AppendMenuW(HMENU,UINT,UINT_PTR,LPCWSTR)': cannot convert argument 4 from 'const char [5]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(194,51):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(7632,1):
+  see declaration of 'AppendMenuW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(194,2):
+  while trying to match the argument list '(HMENU, long, UINT_PTR, const char [5])'
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(195,2): error C2664: 'BOOL AppendMenuW(HMENU,UINT,UINT_PTR,LPCWSTR)': cannot convert argument 4 from 'const char [4]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(195,59):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(7632,1):
+  see declaration of 'AppendMenuW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(195,2):
+  while trying to match the argument list '(HMENU, long, int, const char [4])'
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(196,2): error C2664: 'BOOL AppendMenuW(HMENU,UINT,UINT_PTR,LPCWSTR)': cannot convert argument 4 from 'const char [8]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(196,63):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(7632,1):
+  see declaration of 'AppendMenuW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(196,2):
+  while trying to match the argument list '(HMENU, long, int, const char [8])'
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(197,2): error C2664: 'BOOL AppendMenuW(HMENU,UINT,UINT_PTR,LPCWSTR)': cannot convert argument 4 from 'const char [13]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(197,54):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(7632,1):
+  see declaration of 'AppendMenuW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(197,2):
+  while trying to match the argument list '(HMENU, long, UINT_PTR, const char [13])'
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(198,2): error C2664: 'BOOL AppendMenuW(HMENU,UINT,UINT_PTR,LPCWSTR)': cannot convert argument 4 from 'const char [6]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(198,61):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(7632,1):
+  see declaration of 'AppendMenuW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(198,2):
+  while trying to match the argument list '(HMENU, long, int, const char [6])'
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(199,2): error C2664: 'BOOL AppendMenuW(HMENU,UINT,UINT_PTR,LPCWSTR)': cannot convert argument 4 from 'const char [5]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(199,60):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(7632,1):
+  see declaration of 'AppendMenuW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(199,2):
+  while trying to match the argument list '(HMENU, long, int, const char [5])'
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(200,2): error C2664: 'BOOL AppendMenuW(HMENU,UINT,UINT_PTR,LPCWSTR)': cannot convert argument 4 from 'const char [13]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(200,54):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(7632,1):
+  see declaration of 'AppendMenuW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(200,2):
+  while trying to match the argument list '(HMENU, long, UINT_PTR, const char [13])'
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(227,5): error C2664: 'BOOL SetWindowTextW(HWND,LPCWSTR)': cannot convert argument 2 from 'const char [15]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(227,25):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(8929,1):
+  see declaration of 'SetWindowTextW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(227,5):
+  while trying to match the argument list '(HWND, const char [15])'
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(230,5): error C2664: 'BOOL SetWindowTextW(HWND,LPCWSTR)': cannot convert argument 2 from 'const char [16]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(230,25):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(8929,1):
+  see declaration of 'SetWindowTextW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(230,5):
+  while trying to match the argument list '(HWND, const char [16])'
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(233,5): error C2664: 'BOOL SetWindowTextW(HWND,LPCWSTR)': cannot convert argument 2 from 'const char [15]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(233,25):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(8929,1):
+  see declaration of 'SetWindowTextW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(233,5):
+  while trying to match the argument list '(HWND, const char [15])'
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(245,3): error C2664: 'int MessageBoxW(HWND,LPCWSTR,LPCWSTR,UINT)': cannot convert argument 2 from 'const char [35]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(245,20):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(9180,1):
+  see declaration of 'MessageBoxW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(245,3):
+  while trying to match the argument list '(HWND, const char [35], const char [13], long)'
+  
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(252,3): error C2664: 'int DrawTextW(HDC,LPCWSTR,int,LPRECT,UINT)': cannot convert argument 2 from 'const char [14]' to 'LPCWSTR'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(252,17):
+  Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winuser.h(8202,1):
+  see declaration of 'DrawTextW'
+  C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB1-main\SPROGLAB1FINAL\main.cpp(252,3):
+  while trying to match the argument list '(HDC, const char [14], int, RECT *, int)'
+  
