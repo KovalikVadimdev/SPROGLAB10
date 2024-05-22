@@ -1,5 +1,6 @@
 ﻿#include <windows.h> // підключення бібліотеки з функціями API
 #include <string>
+#include "resource.h"
 
 RECT rectangle;
 bool cursorInside;
@@ -50,7 +51,7 @@ ATOM MyRegisterClass(HINSTANCE hInstance)
     wcex.hIcon = LoadIcon(nullptr, IDI_HAND); 		//визначення іконки
     wcex.hCursor = LoadCursor(nullptr, IDC_ARROW); 	//визначення курсору
     wcex.hbrBackground = GetSysColorBrush(COLOR_WINDOW); //установка фону
-    wcex.lpszMenuName = nullptr; 				//визначення меню
+    wcex.lpszMenuName = MAKEINTRESOURCE(IDR_MENU1); 				//визначення меню
     wcex.lpszClassName = szWindowClass; 		//ім’я класу
     wcex.hIconSm = nullptr;
 
@@ -103,7 +104,22 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
     switch (message)
     {
+    case WM_COMMAND: {
+        switch (LOWORD(wParam))
+        {
+        case ID_PROCESS_CREATEPROCESS: {
+            // Створи новий процес який відкриває блокнот
+            STARTUPINFO si;
+            PROCESS_INFORMATION pi;
+            ZeroMemory(&si, sizeof(STARTUPINFO));
+            si.cb = sizeof(STARTUPINFO);
+            CreateProcess("C:\\Windows\\System32\\notepad.exe", NULL, NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi);
 
+        }
+            break;
+        }
+    }
+        break;
     case WM_KEYDOWN: {
 
         if (wParam != VK_LEFT && wParam != VK_RIGHT && wParam != VK_UP && wParam != VK_DOWN)
@@ -268,8 +284,12 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     }
                  break;
 
-    case WM_DESTROY: 				//Завершення роботи
+    case WM_DESTROY:{ 				//Завершення роботи
+        // При закритті програми закриваємо вікно стовреного блокноту
+        HWND notepad = FindWindow(NULL, "Untitled - Notepad");
+        PostMessage(notepad, WM_CLOSE, 0, 0);
         PostQuitMessage(0);
+    }
         break;
     default:
         //Обробка повідомлень, які не оброблені користувачем

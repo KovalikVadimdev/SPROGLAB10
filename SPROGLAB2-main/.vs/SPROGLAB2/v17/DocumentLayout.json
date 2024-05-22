@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{6A354CAB-36BE-498B-A333-51179DD60089}|SPROGLAB2\\SPROGLAB2.vcxproj|C:\\Users\\Kovalik\\source\\repos\\SPROGLAB10\\SPROGLAB2-main\\SPROGLAB2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6A354CAB-36BE-498B-A333-51179DD60089}|SPROGLAB2\\SPROGLAB2.vcxproj|solutionrelative:SPROGLAB2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A354CAB-36BE-498B-A333-51179DD60089}|SPROGLAB2\\SPROGLAB2.vcxproj|C:\\Users\\Kovalik\\source\\repos\\SPROGLAB10\\SPROGLAB2-main\\SPROGLAB2\\SPROGLAB2.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       $ \u0085 )$  \u0022     ",
+      "RelativeMoniker": "D:0:0:{6A354CAB-36BE-498B-A333-51179DD60089}|SPROGLAB2\\SPROGLAB2.vcxproj|solutionrelative:SPROGLAB2\\SPROGLAB2.rc||{177559E0-D141-11D0-92DF-00A0C9138C45}|,   b e g i n       $ \u0085 )$  \u0022     "
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SPROGLAB2.rc - IDR_MENU1 - Menu",
+              "DocumentMoniker": "C:\\Users\\Kovalik\\source\\repos\\SPROGLAB10\\SPROGLAB2-main\\SPROGLAB2\\SPROGLAB2.rc",
+              "RelativeDocumentMoniker": "SPROGLAB2\\SPROGLAB2.rc",
+              "ToolTip": "C:\\Users\\Kovalik\\source\\repos\\SPROGLAB10\\SPROGLAB2-main\\SPROGLAB2\\SPROGLAB2.rc - IDR_MENU1 - Menu",
+              "RelativeToolTip": "SPROGLAB2\\SPROGLAB2.rc - IDR_MENU1 - Menu",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
+              "WhenOpened": "2024-05-22T19:47:06.493Z",
+              "EditorCaption": " - IDR_MENU1 - Menu"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +40,7 @@
               "RelativeDocumentMoniker": "SPROGLAB2\\main.cpp",
               "ToolTip": "C:\\Users\\Kovalik\\source\\repos\\SPROGLAB10\\SPROGLAB2-main\\SPROGLAB2\\main.cpp",
               "RelativeToolTip": "SPROGLAB2\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAXAAAA",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAwwG8AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-20T19:12:52.999Z",
               "EditorCaption": ""
