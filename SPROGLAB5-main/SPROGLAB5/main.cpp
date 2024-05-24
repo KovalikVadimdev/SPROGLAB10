@@ -51,7 +51,7 @@ ATOM MyRegisterClass(HINSTANCE hInstance)
 	wcex.hIcon = LoadIcon(NULL, IDI_HAND);               // визначення іконки
 	wcex.hCursor = LoadCursor(NULL, IDC_ARROW);          // визначення курсору
 	wcex.hbrBackground = GetSysColorBrush(COLOR_WINDOW); // установка фону
-	wcex.lpszMenuName = NULL;                            // визначення меню
+	wcex.lpszMenuName = MAKEINTRESOURCE(IDR_MENU1);                            // визначення меню
 	wcex.lpszClassName = szWindowClass;                  // ім’я класу
 	wcex.hIconSm = NULL;
 
@@ -115,6 +115,45 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
 
 	switch (message)
 	{
+
+	case WM_COMMAND: // Обробка меню
+	{
+		switch (LOWORD(wParam))
+		{
+			case ID_CREATEPROCESS: {
+				STARTUPINFO cif;
+				PROCESS_INFORMATION pi;
+				ZeroMemory(&cif, sizeof(STARTUPINFO));
+				cif.cb = sizeof(STARTUPINFO);
+				ZeroMemory(&pi, sizeof(PROCESS_INFORMATION));
+				// open notepad
+				CreateProcess("C:\\Windows\\System32\\notepad.exe", NULL, NULL, NULL, FALSE, 0, NULL, NULL, &cif, &pi);
+				break;
+			}
+			case ID_STOPPROCESS: {
+				HWND hwnd = FindWindow(NULL, "Untitled - Notepad");
+				if (hwnd != NULL)
+				{
+					SendMessage(hwnd, WM_CLOSE, 0, 0);
+				}
+				else {
+					MessageBox(hWnd, "There is no such process. Please launch your editor first", "Error", MB_OK);
+				}
+				break;
+			}
+			case ID_STOPWORKING: {
+				HWND hwnd = FindWindow(NULL, "Untitled - Notepad");
+				if (hwnd != NULL)
+				{
+					SendMessage(hwnd, WM_CLOSE, 0, 0);
+				}
+				// Завершити роботу програми
+				PostQuitMessage(0);
+				break;
+			}
+		}
+		break;
+	}
 		
 	case WM_LBUTTONDOWN:
 	{

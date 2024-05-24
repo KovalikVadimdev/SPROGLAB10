@@ -107,16 +107,22 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     case WM_COMMAND: {
         switch (LOWORD(wParam))
         {
-        case ID_PROCESS_CREATEPROCESS: {
-            // Створи новий процес який відкриває блокнот
-            STARTUPINFO si;
-            PROCESS_INFORMATION pi;
-            ZeroMemory(&si, sizeof(STARTUPINFO));
-            si.cb = sizeof(STARTUPINFO);
-            CreateProcess("C:\\Windows\\System32\\notepad.exe", NULL, NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi);
-
-        }
-            break;
+            case ID_PROCESS_CREATEPROCESS: {
+                // Створи новий процес який відкриває блокнот
+                STARTUPINFO si;
+                PROCESS_INFORMATION pi;
+                ZeroMemory(&si, sizeof(STARTUPINFO));
+                si.cb = sizeof(STARTUPINFO);
+                CreateProcess("C:\\Windows\\System32\\notepad.exe", NULL, NULL, NULL, FALSE, 0, NULL, NULL, &si, &pi);
+                break;
+            }
+            case ID_PROCESS_ENDPROCESS: {
+				// Заверши процес блокноту
+				HWND notepad = FindWindow(NULL, "Untitled - Notepad");
+				PostMessage(notepad, WM_CLOSE, 0, 0);
+				break;
+			}
+            
         }
     }
         break;
