@@ -70,7 +70,7 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow) {
 	return TRUE;
 }
 
-char* intToBinaryString(int num, char* binaryString, char* binaryStringleft)
+void intToBinaryString(int num)
 {
 	int flags_before = 0;
 	int beforeCF = 0;
@@ -88,9 +88,20 @@ char* intToBinaryString(int num, char* binaryString, char* binaryStringleft)
 	int afterSF = 0;
 	int afterOF = 0;
 
+	int flags_after2 = 0;
+	int afterCF2 = 0;
+	int afterPF2 = 0;
+	int afterAF2 = 0;
+	int afterZF2 = 0;
+	int afterSF2 = 0;
+	int afterOF2 = 0;
+	char* binaryString = new char[33];
+	char* binaryStringLeft = new char[33];
+	char* binaryStringRight = new char[33];
+
 	__asm {
 		mov eax, num
-		mov edi, binaryString 
+		mov edi, binaryString
 		mov byte ptr[edi + 32], 0
 		mov ecx, 32
 		loop_start:
@@ -101,7 +112,7 @@ char* intToBinaryString(int num, char* binaryString, char* binaryStringleft)
 			zero_bit :
 		mov byte ptr[edi + 31], '0'
 			next_bit :
-			dec edi 
+			dec edi
 			loop loop_start
 
 			pushfd
@@ -123,7 +134,7 @@ char* intToBinaryString(int num, char* binaryString, char* binaryStringleft)
 			mov beforeZF, eax
 			mov eax, flags_before
 			shr eax, 7
-			and eax, 1 
+			and eax, 1
 			mov beforeSF, eax
 			mov eax, flags_before
 			shr eax, 11
@@ -132,17 +143,17 @@ char* intToBinaryString(int num, char* binaryString, char* binaryStringleft)
 
 
 			mov eax, num
-			add eax, 33
-			mov edi, binaryStringleft
+			shl eax, 1
+			mov edi, binaryStringLeft
 			mov byte ptr[edi + 32], 0
 			mov ecx, 32
 			loop_startleft:
-			shr eax, 1
+		shr eax, 1
 			jnc zero_bitleft
 			mov byte ptr[edi + 31], '1'
 			jmp next_bitleft
 			zero_bitleft :
-			mov byte ptr[edi + 31], '0'
+		mov byte ptr[edi + 31], '0'
 			next_bitleft :
 			dec edi
 			loop loop_startleft
@@ -172,28 +183,65 @@ char* intToBinaryString(int num, char* binaryString, char* binaryStringleft)
 			shr eax, 11
 			and eax, 1
 			mov afterOF, eax
+
+			mov eax, num
+			shl eax, 1
+			shr eax, 2
+			mov edi, binaryStringRight
+			mov byte ptr[edi + 32], 0
+			mov ecx, 32
+			loop_startrigth:
+		shr eax, 1
+			jnc zero_bitrigth
+			mov byte ptr[edi + 31], '1'
+			jmp next_bitrigth
+			zero_bitrigth :
+		mov byte ptr[edi + 31], '0'
+			next_bitrigth :
+			dec edi
+			loop loop_startrigth
+
+			pushfd
+			pop flags_after2
+			mov eax, flags_after2
+			and eax, 1
+			mov afterCF2, eax
+			mov eax, flags_after2
+			shr eax, 2
+			and eax, 1
+			mov afterPF2, eax
+			mov eax, flags_after2
+			shr eax, 4
+			and eax, 1
+			mov afterAF2, eax
+			mov eax, flags_after2
+			shr eax, 6
+			and eax, 1
+			mov afterZF2, eax
+			mov eax, flags_after2
+			shr eax, 7
+			and eax, 1
+			mov afterSF2, eax
+			mov eax, flags_after2
+			shr eax, 11
+			and eax, 1
+			mov afterOF2, eax
 	}
-	
+
 	char flags[100];
+	TextOut(GetDC(g_hEdit), 5, 90, "Number before:", 15);
+	TextOut(GetDC(g_hEdit), 5, 110, binaryString, 32);
+	TextOut(GetDC(g_hEdit), 5, 130, "Flags before:", 13);
 	sprintf_s(flags, "CF=%d PF=%d AF=%d ZF=%d SF=%d OF=%d", beforeCF, beforePF, beforeAF, beforeZF, beforeSF, beforeOF);
-	TextOut(GetDC(g_hEdit), 5, 120, flags, strlen(flags));
-	TextOut(GetDC(g_hEdit), 5, 140, binaryStringleft, 32);
+	TextOut(GetDC(g_hEdit), 5, 150, flags, strlen(flags));
+	TextOut(GetDC(g_hEdit), 5, 170, "Flags after 1 left shift:", 25);
+	TextOut(GetDC(g_hEdit), 5, 190, binaryStringLeft, 32);
 	sprintf_s(flags, "CF=%d PF=%d AF=%d ZF=%d SF=%d OF=%d", afterCF, afterPF, afterAF, afterZF, afterSF, afterOF);
-	TextOut(GetDC(g_hEdit), 5, 160, flags, strlen(flags));
-	return binaryString;
-}
-
-void ConvertAndDisplayBinary() {
-	char inputText[100];
-	GetWindowText(g_hEdit, inputText, 100);
-
-	int num = atoi(inputText);
-	// Convert the number to binary string
-	char binaryString[33];
-	char binaryStringleft[33];
-
-	// Display the result in a message box
-	TextOut(GetDC(g_hEdit), 5, 100, intToBinaryString(num, binaryString, binaryStringleft), 32);
+	TextOut(GetDC(g_hEdit), 5, 210, flags, strlen(flags));
+	TextOut(GetDC(g_hEdit), 5, 230, "Flags after 2 right shift:", 25);
+	TextOut(GetDC(g_hEdit), 5, 250, binaryStringRight, 32);
+	sprintf_s(flags, "CF=%d PF=%d AF=%d ZF=%d SF=%d OF=%d", afterCF2, afterPF2, afterAF2, afterZF2, afterSF2, afterOF2);
+	TextOut(GetDC(g_hEdit), 5, 270, flags, strlen(flags));
 }
 
 LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam) {
@@ -237,7 +285,12 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam) 
 
 	case WM_COMMAND: {
 		if (LOWORD(wParam) == ID_B_BUTTON) {
-			ConvertAndDisplayBinary();
+			char inputText[100];
+			GetWindowText(g_hEdit, inputText, 100);
+
+			int num = atoi(inputText);
+			char binaryString[33];
+			intToBinaryString(num);
 		}
 		break;
 	}

@@ -1,2 +1,3 @@
 ﻿  main.cpp
+C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB8-main\SPROGLAB8\main.cpp(292,9): warning C4101: 'binaryString': unreferenced local variable
   SPROGLAB8.vcxproj -> C:\Users\Kovalik\source\repos\SPROGLAB10\SPROGLAB8-main\Debug\SPROGLAB8.exe
